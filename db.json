@@ -1,13 +1,94 @@
 {
     "solicitacao": [
         {
-            "unidade": 5469,
-            "assunto": "teste",
-            "mensagem": "Olá, desejo fazer tal coisa",
-            "tipoSolicitacao": 1,
-            "dataAgendamento": "22-10-2023",
-            "periodoAgendamento": 1,
-            "anexos": []
+            "id": 26,
+            "assunto": "assunto",
+            "mensagem": "mensagem",
+            "data": "22-10-2023-00-00-00",
+            "empreendimento": {
+                "id": 45,
+                "nome": "LAKE VIEW"
+            },
+            "bloco": {
+                "id": 14,
+                "nome": "ÚNICO"
+            },
+            "unidade": {
+                "id": 5469,
+                "nome": "201"
+            },
+            "tipoSolicitacao": {
+                "id": 1,
+                "tipo": "Suporte Tecnico"
+            },
+            "periodoAgendamento": {
+                "id": 1,
+                "periodo": "manha"
+            },
+            "anexos": [
+                {
+                    "id": 367,
+                    "name": "internit (3ª cópia).png",
+                    "description": null,
+                    "contentType": "image/png",
+                    "size": 2207,
+                    "width": 152,
+                    "updatedAt": "04-05-2023 12-05-50",
+                    "url": {
+                        "reference": "/uploads/default/0001/01/internit (3ª cópia)-6453c9cede346.png"
+                    }
+                },
+                {
+                    "id": 368,
+                    "name": "internit (outra cópia).png",
+                    "description": null,
+                    "contentType": "image/png",
+                    "size": 2207,
+                    "width": 152,
+                    "updatedAt": "04-05-2023 12-05-51",
+                    "url": {
+                        "reference": "/uploads/default/0001/01/internit (outra cópia)-6453c9cfc77f6.png"
+                    }
+                },
+                {
+                    "id": 369,
+                    "name": "internit (cópia).png",
+                    "description": null,
+                    "contentType": "image/png",
+                    "size": 2207,
+                    "width": 152,
+                    "updatedAt": "04-05-2023 12-05-52",
+                    "url": {
+                        "reference": "/uploads/default/0001/01/internit (cópia)-6453c9d0916aa.png"
+                    }
+                }
+            ],
+            "cliente": {
+                "id": 4466,
+                "nomeCompleto": "Alan Guedes"
+            }
         }
-    ]
+    ],
+    "dashboard": {
+        "ultimaSolicitacao": {
+            "id": 1,
+            "empreendimento": "Teste",
+            "bloco": 2,
+            "unidade": "AP 201",
+            "data": "11/06/2023",
+            "assunto": "Novo problema no apartamento"
+        },
+        "atualizacoes": 3,
+        "chamados": {
+            "qtd": 30,
+            "andamento": {
+                "qtd": 10,
+                "porcentagem": 20
+            },
+            "finalizado": {
+                "qtd": 5,
+                "porcentagem": 23
+            }
+        }
+    }
 }
