@@ -1,0 +1,13 @@
+{
+    "solicitacao": [
+        {
+            "unidade": 5469,
+            "assunto": "teste",
+            "mensagem": "Olá, desejo fazer tal coisa",
+            "tipoSolicitacao": 1,
+            "dataAgendamento": "22-10-2023",
+            "periodoAgendamento": 1,
+            "anexos": []
+        }
+    ]
+}
